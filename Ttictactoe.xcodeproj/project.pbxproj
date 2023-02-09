@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		5348747E298BDB9300BED58A /* TtictactoeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5348747D298BDB9300BED58A /* TtictactoeApp.swift */; };
-		53487480298BDB9300BED58A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5348747F298BDB9300BED58A /* ContentView.swift */; };
+		53487480298BDB9300BED58A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5348747F298BDB9300BED58A /* MainView.swift */; };
 		53487482298BDB9400BED58A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53487481298BDB9400BED58A /* Assets.xcassets */; };
 		53487485298BDB9400BED58A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53487484298BDB9400BED58A /* Preview Assets.xcassets */; };
 		5348748F298BDB9500BED58A /* TtictactoeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5348748E298BDB9500BED58A /* TtictactoeTests.swift */; };
 		53487499298BDB9500BED58A /* TtictactoeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53487498298BDB9500BED58A /* TtictactoeUITests.swift */; };
 		5348749B298BDB9500BED58A /* TtictactoeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5348749A298BDB9500BED58A /* TtictactoeUITestsLaunchTests.swift */; };
+		534874A8298BE3DA00BED58A /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534874A7298BE3DA00BED58A /* GameView.swift */; };
+		5348751C299280EC00BED58A /* GameButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5348751B299280EC00BED58A /* GameButton.swift */; };
+		5348751E2992845F00BED58A /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5348751D2992845F00BED58A /* MainViewModel.swift */; };
+		53487524299291E100BED58A /* GameSquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53487523299291E100BED58A /* GameSquareView.swift */; };
+		534875262992928600BED58A /* PlayerIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534875252992928600BED58A /* PlayerIndicatorView.swift */; };
+		534875282992947E00BED58A /* LodingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534875272992947E00BED58A /* LodingView.swift */; };
+		5348752A2993C35300BED58A /* GamrViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534875292993C35300BED58A /* GamrViewModel.swift */; };
+		5348752C2993C73600BED58A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5348752B2993C73600BED58A /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,7 @@
 /* Begin PBXFileReference section */
 		5348747A298BDB9300BED58A /* Ttictactoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ttictactoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5348747D298BDB9300BED58A /* TtictactoeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TtictactoeApp.swift; sourceTree = "<group>"; };
-		5348747F298BDB9300BED58A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5348747F298BDB9300BED58A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		53487481298BDB9400BED58A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53487484298BDB9400BED58A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5348748A298BDB9500BED58A /* TtictactoeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TtictactoeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +52,14 @@
 		53487494298BDB9500BED58A /* TtictactoeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TtictactoeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53487498298BDB9500BED58A /* TtictactoeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TtictactoeUITests.swift; sourceTree = "<group>"; };
 		5348749A298BDB9500BED58A /* TtictactoeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TtictactoeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		534874A7298BE3DA00BED58A /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		5348751B299280EC00BED58A /* GameButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameButton.swift; sourceTree = "<group>"; };
+		5348751D2992845F00BED58A /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		53487523299291E100BED58A /* GameSquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSquareView.swift; sourceTree = "<group>"; };
+		534875252992928600BED58A /* PlayerIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerIndicatorView.swift; sourceTree = "<group>"; };
+		534875272992947E00BED58A /* LodingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LodingView.swift; sourceTree = "<group>"; };
+		534875292993C35300BED58A /* GamrViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamrViewModel.swift; sourceTree = "<group>"; };
+		5348752B2993C73600BED58A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				5348747D298BDB9300BED58A /* TtictactoeApp.swift */,
-				5348747F298BDB9300BED58A /* ContentView.swift */,
+				534875212992873800BED58A /* View */,
+				534875222992875E00BED58A /* SecondrayView */,
 				53487481298BDB9400BED58A /* Assets.xcassets */,
 				53487483298BDB9400BED58A /* Preview Content */,
 			);
@@ -125,6 +142,53 @@
 				5348749A298BDB9500BED58A /* TtictactoeUITestsLaunchTests.swift */,
 			);
 			path = TtictactoeUITests;
+			sourceTree = "<group>";
+		};
+		5348751F299286E600BED58A /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				5348747F298BDB9300BED58A /* MainView.swift */,
+				5348751D2992845F00BED58A /* MainViewModel.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		534875202992871200BED58A /* GameView */ = {
+			isa = PBXGroup;
+			children = (
+				534874A7298BE3DA00BED58A /* GameView.swift */,
+				534875292993C35300BED58A /* GamrViewModel.swift */,
+			);
+			path = GameView;
+			sourceTree = "<group>";
+		};
+		534875212992873800BED58A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5348751F299286E600BED58A /* MainView */,
+				534875202992871200BED58A /* GameView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		534875222992875E00BED58A /* SecondrayView */ = {
+			isa = PBXGroup;
+			children = (
+				5348751B299280EC00BED58A /* GameButton.swift */,
+				53487523299291E100BED58A /* GameSquareView.swift */,
+				534875252992928600BED58A /* PlayerIndicatorView.swift */,
+				534875272992947E00BED58A /* LodingView.swift */,
+				5348752D2993C74C00BED58A /* Model  */,
+			);
+			path = SecondrayView;
+			sourceTree = "<group>";
+		};
+		5348752D2993C74C00BED58A /* Model  */ = {
+			isa = PBXGroup;
+			children = (
+				5348752B2993C73600BED58A /* Model.swift */,
+			);
+			path = "Model ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +321,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53487480298BDB9300BED58A /* ContentView.swift in Sources */,
+				53487480298BDB9300BED58A /* MainView.swift in Sources */,
+				534875262992928600BED58A /* PlayerIndicatorView.swift in Sources */,
+				5348751C299280EC00BED58A /* GameButton.swift in Sources */,
+				534875282992947E00BED58A /* LodingView.swift in Sources */,
+				534874A8298BE3DA00BED58A /* GameView.swift in Sources */,
+				5348752C2993C73600BED58A /* Model.swift in Sources */,
+				53487524299291E100BED58A /* GameSquareView.swift in Sources */,
+				5348751E2992845F00BED58A /* MainViewModel.swift in Sources */,
 				5348747E298BDB9300BED58A /* TtictactoeApp.swift in Sources */,
+				5348752A2993C35300BED58A /* GamrViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

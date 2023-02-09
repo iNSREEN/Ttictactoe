@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-@main
+ @main
 struct TtictactoeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
